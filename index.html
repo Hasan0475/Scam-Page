@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Draw Contest</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #283d50; /* Dark blue background */
+            color: #ffffff; /* White text */
+        }
+        .container {
+            width: 100%;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+        .section {
+            flex: 0 0 auto;
+            width: 300px;
+            height: 400px;
+            margin-right: 20px;
+            background-color: #1f2a38; /* Darker blue background */
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .prize-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 1px solid #4CAF50; /* Green line between sections */
+        }
+        .prize-image {
+            width: 80%;
+            max-width: 200px;
+            height: auto;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        .prize-details {
+            text-align: center;
+        }
+        .prize-details h2 {
+            margin-top: 0;
+            color: #ffd700; /* Golden yellow */
+        }
+        .prize-details p {
+            margin-top: 0;
+        }
+        .register-button {
+            display: block;
+            width: calc(100% - 40px);
+            text-align: center;
+            padding: 15px;
+            background-color: #4CAF50; /* Green button */
+            color: #ffffff;
+            text-decoration: none;
+            border: none;
+            border-radius: 4px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+        .register-button:hover {
+            background-color: #45a049;
+        }
+        .prizes-such-as {
+            font-size: 16px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .contest-title {
+            font-size: 24px;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+        .prize-money {
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 15px;
+            color: #ffd700; /* Golden yellow */
+        }
+        .container-extra {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background-color: #283d50; /* Dark blue background */
+            color: #ffffff; /* White text */
+            margin-top: 20px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="contest-title">Lucky Draw Contest</h1>
+    <p class="prize-money">Win prizes up to $500,000</p>
+
+    <p class="prizes-such-as">Win prizes such as...</p>
+
+    <div class="container">
+        <div class="section">
+            <div class="prize-item">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcScGPdOh90iNBwjtb1KW4Xh82N18AwAKRc7bTAYzCXG9cFXdgRNHQhyIQmD9wV1Khx3hlNvrTTH4YgC85Oc4oCj3nkZ0LK_mgR7cGRPFhS6&usqp=CAE" alt="Sony Headphones" class="prize-image">
+                <div class="prize-details">
+                    <h2>Sony Headphones</h2>
+                    <p>$3000 HKD</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="prize-item">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTsJHOVTYs66GkMngaM3CzCqI226WlPyJ-5GMHcuoeVeF3F0o3HXWxHGUBoBYCfM2MRARI0dH6S0BAuxJW5l6Vm1uXS771HtiS4d7fz6wBd27vaban0xWb7yg&usqp=CAE" alt="iPhone 15 Pro Max" class="prize-image">
+                <div class="prize-details">
+                    <h2>iPhone 15 Pro Max</h2>
+                    <p>$13,000 HKD</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-extra">
+        <a href="#" class="register-button">Click here to register</a>
+    </div>
+</body>
+</html>
